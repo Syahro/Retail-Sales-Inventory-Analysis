@@ -82,6 +82,7 @@ Project ini menggunakan pendekatan end-to-end workflow yang umum digunakan dalam
 - Mengidentifikasi produk dengan penjualan rendah
 - Menggunakan pendekatan distribusi data (quantile)
 - Menentukan potensi produk yang tidak bergerak
+- Mengidentifikasi produk dengan potensi dead stock menggunakan pendekatan distribusi data (quartile) dengan SQL window functio
 
 ---
 
