@@ -112,6 +112,22 @@ Project ini menggunakan pendekatan end-to-end workflow yang umum digunakan dalam
 
 ---
 
+## 📉 Sales Forecasting
+
+Untuk mendukung perencanaan bisnis, dilakukan prediksi penjualan bulan berikutnya menggunakan metode Moving Average (3 bulan terakhir).
+
+Pendekatan ini digunakan untuk:
+- Mengidentifikasi tren terbaru
+- Mengurangi fluktuasi data
+- Memberikan estimasi yang stabil
+
+Hasil prediksi dapat digunakan sebagai dasar:
+- Perencanaan inventory
+- Strategi penjualan
+- Pengambilan keputusan bisnis
+
+---
+
 ## 📈 Dashboard
 
 Dashboard dibuat menggunakan Power BI yang mencakup:
