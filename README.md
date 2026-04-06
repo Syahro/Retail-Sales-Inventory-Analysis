@@ -1,5 +1,10 @@
 # 📊 Retail Sales & Inventory Analysis
 
+## 📸 Dashboard Preview
+
+![Dashboard](link_gambar)
+
+
 ## 📌 Project Overview
 Project ini bertujuan untuk menganalisis data penjualan retail guna memahami pola penjualan, mengidentifikasi performa produk, serta memberikan rekomendasi strategis untuk optimasi inventory dan peningkatan penjualan.
 
