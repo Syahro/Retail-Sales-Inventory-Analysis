@@ -4,7 +4,6 @@
 
 ![Dashboard](link_gambar)
 
-
 ## 📌 Project Overview
 Project ini bertujuan untuk menganalisis data penjualan retail guna memahami pola penjualan, mengidentifikasi performa produk, serta memberikan rekomendasi strategis untuk optimasi inventory dan peningkatan penjualan.
 
@@ -19,8 +18,8 @@ Project ini bertujuan untuk menganalisis data penjualan retail guna memahami pol
 ---
 
 ## 🛠️ Tools & Technologies
-- Python (Pandas, Matplotlib)
-- SQL (untuk query data)
+- SQL (data extraction & aggregation)
+- Python (Pandas, Matplotlib untuk analisis data)
 - Power BI (dashboard visualization)
 - Microsoft Excel (data validation & exploration)
 
@@ -34,6 +33,30 @@ Dataset yang digunakan adalah retail dataset (Superstore) yang berisi:
 - Sales
 - Region
 - Customer Information
+
+---
+
+## 🔄 Data Workflow
+
+Project ini menggunakan pendekatan end-to-end workflow yang umum digunakan dalam pekerjaan Data Analyst:
+
+1. **SQL – Data Extraction & Preparation**
+   - Mengambil data dari database
+   - Melakukan filtering dan agregasi awal
+   - Menyiapkan dataset yang siap dianalisis
+
+2. **Python – Data Analysis**
+   - Data cleaning (handle missing value & duplicate)
+   - Exploratory Data Analysis (EDA)
+   - Analisis tren penjualan
+   - Analisis performa produk dan kategori
+   - Identifikasi produk fast-moving & slow-moving
+
+3. **Power BI – Data Visualization**
+   - Membuat dashboard interaktif
+   - Menampilkan KPI utama
+   - Visualisasi tren dan performa penjualan
+   - Mendukung pengambilan keputusan berbasis data
 
 ---
 
@@ -64,10 +87,10 @@ Dataset yang digunakan adalah retail dataset (Superstore) yang berisi:
 
 ## 📊 Key Insights
 
-- Penjualan menunjukkan pola fluktuatif, dengan beberapa bulan mengalami lonjakan signifikan
+- Penjualan menunjukkan pola fluktuatif dan belum stabil antar bulan
 - Sebagian kecil produk berkontribusi besar terhadap total penjualan (Pareto principle)
 - Terdapat sejumlah produk dengan penjualan sangat rendah yang berpotensi menjadi dead stock
-- Distribusi penjualan tidak merata antar kategori produk
+- Distribusi penjualan tidak merata antar produk dan kategori
 
 ---
 
@@ -76,15 +99,16 @@ Dataset yang digunakan adalah retail dataset (Superstore) yang berisi:
 - Risiko overstock pada produk slow-moving
 - Potensi kehilangan penjualan akibat stockout pada produk fast-moving
 - Inefisiensi dalam pengelolaan inventory
+- Modal terikat pada produk dengan performa rendah
 
 ---
 
 ## 💡 Recommendations
 
-- Fokus pada pengelolaan stok produk fast-moving untuk menghindari kehabisan barang
+- Mengoptimalkan stok pada produk fast-moving untuk menghindari stockout
 - Mengurangi pembelian produk slow-moving
 - Menerapkan strategi promosi seperti bundling untuk meningkatkan penjualan produk low-performing
-- Mengoptimalkan alokasi inventory berdasarkan performa produk
+- Mengalokasikan budget inventory secara lebih efisien berdasarkan performa produk
 
 ---
 
@@ -94,13 +118,15 @@ Dashboard dibuat menggunakan Power BI yang mencakup:
 - Sales Trend (penjualan bulanan)
 - Top Products
 - Category Performance
-- KPI (Total Sales, Total Orders)
+- KPI (Total Sales, Total Orders, Average Sales)
 
 ---
 
 ## 🚀 Conclusion
 
 Project ini menunjukkan bagaimana analisis data dapat digunakan untuk memahami perilaku penjualan dan membantu perusahaan dalam mengoptimalkan strategi inventory serta meningkatkan efisiensi bisnis.
+
+Pendekatan end-to-end (SQL, Python, dan Power BI) mencerminkan workflow yang umum digunakan dalam peran Data Analyst di dunia kerja.
 
 ---
 
