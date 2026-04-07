@@ -2,7 +2,7 @@
 
 ## 📸 Dashboard Preview
 
-![Dashboard](link_gambar)
+![Dashboard](https://github.com/Syahro/Retail-Sales-Inventory-Analysis/blob/main/Dashboard.png)
 
 ## 📌 Project Overview
 Project ini bertujuan untuk menganalisis data penjualan retail guna memahami pola penjualan, mengidentifikasi performa produk, serta memberikan rekomendasi strategis untuk optimasi inventory dan peningkatan penjualan.
